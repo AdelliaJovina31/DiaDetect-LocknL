@@ -52,6 +52,12 @@ st.markdown(
     hr {
         margin: 0;
     }
+    .st-emotion-cache-qdbtli.ea3mdgi2 {
+      padding-bottom: 60px !important;
+      padding-top: 10px !important;
+      padding-left: 16px !important;
+      padding-right: 10px !important;
+    }
     /* button Cek Lagi */
     .st-emotion-cache-qd6iyk > div:nth-child(1) > button:nth-child(1) {
         border: 1px solid #B17BAC;
@@ -446,7 +452,7 @@ with layoutCol1:
         with col3:
             st.text(f"{('Ada' if model1_data['heart_disease'] == 1 else 'Tidak Ada')}")
             st.text(f"{('Ada' if model1_data['hypertension'] == 1 else 'Tidak Ada')}")
-            st.text(f"{(lambda x: {0: 'No Info', 1: 'Current', 2: 'Ever', 3: 'Former', 4: 'Never', 5: 'Not Current'}.get(x, 'Unknown'))(model1_data['smoking_history'])}")
+            st.text(f"{(lambda x: {0: 'Tidak ada informasi', 1: 'Merokok saat ini', 2: 'Pernah merokok', 3: 'Berhenti merokok', 4: 'Tidak pernah merokok', 5: 'Tidak merokok saat ini'}.get(x, 'Unknown'))(model1_data['smoking_history'])}")
             st.text(f"{('Ada' if model2_data['family_history'] == 1 else 'Tidak Ada')}") 
     
 #  =============================== CHATBOT ===============================
