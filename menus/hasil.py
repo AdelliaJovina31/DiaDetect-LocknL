@@ -52,12 +52,6 @@ st.markdown(
     hr {
         margin: 0;
     }
-    .st-emotion-cache-qdbtli {
-      padding-bottom: 100px !important;
-      padding-top: 10px !important;
-      padding-left: 16px !important;
-      padding-right: 10px !important;
-    }
     /* button Cek Lagi */
     .st-emotion-cache-qd6iyk > div:nth-child(1) > button:nth-child(1) {
         border: 1px solid #B17BAC;
@@ -579,7 +573,7 @@ st.markdown("""
     <style>
         /* Reduce padding in the bottom container */
         .st-emotion-cache-qdbtli.ea3mdgi2 {
-            padding-bottom: 20px !important; /* Adjust the padding-bottom value */
+            padding-bottom: 60px !important; /* Adjust the padding-bottom value */
             padding-top: 10px !important; /* Adjust the padding-bottom value */
             padding-left: 16px !important; /* Adjust the padding-bottom value */
             padding-right: 10px !important; /* Adjust the padding-bottom value */  
