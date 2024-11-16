@@ -108,8 +108,6 @@ tensorboard==2.16.2
 tensorboard-data-server==0.7.2
 tensorflow
 termcolor==2.4.0
-tf-nightly==2.17.0.dev20240306
-tf_nightly_intel==2.17.0.dev20240306
 threadpoolctl==3.5.0
 toml==0.10.2
 tornado==6.4.1
