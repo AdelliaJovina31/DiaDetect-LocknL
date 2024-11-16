@@ -52,7 +52,7 @@ st.markdown(
     hr {
         margin: 0;
     }
-    .st-emotion-cache-qdbtli.ea3mdgi2 {
+    .st-emotion-cache-qdbtli {
       padding-bottom: 100px !important;
       padding-top: 10px !important;
       padding-left: 16px !important;
