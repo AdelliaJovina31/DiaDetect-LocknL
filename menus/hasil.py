@@ -53,7 +53,7 @@ st.markdown(
         margin: 0;
     }
     .st-emotion-cache-qdbtli.ea3mdgi2 {
-      padding-bottom: 60px !important;
+      padding-bottom: 100px !important;
       padding-top: 10px !important;
       padding-left: 16px !important;
       padding-right: 10px !important;
