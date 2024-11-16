@@ -346,7 +346,7 @@ with layoutCol1:
         
         with col1:
             st.text("Jenis Kelamin")
-            st.text("Umur")
+            st.text("Usia")
             st.text("BMI")
             st.text("Lebar pinggang (cm)")
         
